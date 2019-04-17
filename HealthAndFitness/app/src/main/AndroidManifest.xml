@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jawadkhan.healthandfitness">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Health and Fitness"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeScreen" />
+        <activity
+            android:name=".HealthyDiet"
+            android:label="@string/title_activity_healthy_diet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="disease_meal_plan.HealthCare" />
+        <activity android:name="disease_meal_plan.Description"></activity>
+        <activity android:name="meal_lose_weight.MealModule"></activity>
+        <activity android:name=".popUp"
+            android:theme="@style/AppTheme.CustomTheme"/>
+    </application>
+
+</manifest>

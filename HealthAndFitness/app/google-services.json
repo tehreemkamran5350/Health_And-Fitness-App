@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "538973984339",
+    "firebase_url": "https://healthandfitness-4baa2.firebaseio.com",
+    "project_id": "healthandfitness-4baa2",
+    "storage_bucket": "healthandfitness-4baa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538973984339:android:4dcc840d8bba6053",
+        "android_client_info": {
+          "package_name": "com.example.jawadkhan.healthandfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538973984339-om5vfuqurgtdadun3obmop5l39lmka18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSL7PYCkIlkTMbJGjrN-A5ZQsVdQv8TLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

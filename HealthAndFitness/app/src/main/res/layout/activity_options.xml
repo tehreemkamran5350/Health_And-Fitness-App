@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context="meal_lose_weight.Options"
+    android:background="@drawable/choice">
+
+    <TextView
+        android:id="@+id/tv_title_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@color/ThemeColor"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="8dp"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <Button
+            android:id="@+id/tv_breakfast_options"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/Breakfast"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_style"
+            android:textStyle="italic"
+            android:textColor="@color/Black"
+            />
+        <Button
+            android:id="@+id/tv_lunch_options"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tv_breakfast_options"
+            android:text="@string/Lunch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_style"
+            android:textStyle="italic"
+            android:textColor="@color/Black"
+            />
+        <Button
+            android:id="@+id/tv_dinner_options"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tv_lunch_options"
+            android:text="@string/Dinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_style"
+            android:textStyle="italic"
+            android:textColor="@color/Black"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

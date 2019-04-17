@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About Us"
+        android:paddingTop="10dp"
+        android:paddingLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black"
+        android:background="@color/ThemeColor"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_about"
+        android:src="@drawable/aboutus"
+        android:id="@+id/img_about"
+        />
+    <TextView
+        android:layout_below="@+id/img_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:layout_centerHorizontal="true"
+        android:text="Health and Fitness"
+        android:id="@+id/about_app"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_app"
+        android:layout_marginLeft="72dp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:text="By:"
+        android:id="@+id/tv_by"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_by"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:id="@+id/tv_arbab"
+        android:text="-Arbab Ashfaq Khan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_arbab"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:text="-Misbah Hassan Awan"
+        android:id="@+id/tv_misbah"/>
+
+    <TextView
+        android:id="@+id/tv_tehreem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_misbah"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:text="-Tehreem Kamran"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tehreem"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:text="-Asma Munir"
+        android:id="@+id/tv_asma"/>
+
+</RelativeLayout>

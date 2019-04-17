@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_aids" type="id"></item>
+    <item name="btn_thalassemia" type="id"></item>
+    <item name="btn_hepatitis" type="id"></item>
+    <item name="btn_ulcer" type="id"></item>
+    <item name="btn_diabetes" type="id"></item>
+    <item name="btn_anemia" type="id"></item>
+    <item name="btn_renal" type="id"></item>
+    <item name="btn_thyroid" type="id"></item>
+    <item name="btn_heart" type="id"></item>
+    <item name="btn_asthma" type="id"></item>
+    <item name="btn_dengue" type="id"></item>
+    <item name="btn_food" type="id"></item>
+    <item name="btn_blood" type="id"></item>
+    <item name="btn_mumps" type="id"></item>
+    <item name="btn_tb" type="id"></item>
+</resources>

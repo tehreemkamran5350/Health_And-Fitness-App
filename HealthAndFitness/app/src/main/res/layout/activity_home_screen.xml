@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context="com.example.jawadkhan.healthandfitness.HomeScreen">
+
+    <Button
+        android:id="@+id/diet_diseases"
+        android:layout_width="250dip"
+        android:layout_marginTop="340dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/diet_diseases"
+        android:textStyle="italic"
+        android:background="@drawable/border_style"/>
+
+    <Button
+        android:layout_marginTop="5dip"
+        android:id="@+id/diet_weight"
+        android:layout_width="250dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/diet_weight"
+        android:textStyle="italic"
+        android:layout_below="@+id/diet_diseases"
+        android:background="@drawable/border_style"/>
+
+    <Button
+        android:layout_marginTop="5dip"
+        android:id="@+id/exercise_weight"
+        android:layout_width="250dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_weight"
+        android:layout_below="@+id/diet_weight"
+        android:textStyle="italic"
+        android:background="@drawable/border_style"/>
+
+    <Button
+        android:id="@+id/exercise_pain"
+        android:layout_marginTop="5dip"
+        android:layout_width="250dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_pain"
+        android:textStyle="italic"
+        android:layout_below="@+id/exercise_weight"
+        android:background="@drawable/border_style"/>
+</RelativeLayout>

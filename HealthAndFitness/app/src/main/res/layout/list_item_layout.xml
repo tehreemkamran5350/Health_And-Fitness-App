@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/aids"
+            android:id="@+id/iv_healthyDiet" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_style"
+            android:textColor="@color/Black"
+            android:textStyle="italic"
+            android:id="@+id/btn_healthyDiet"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:text="@string/start"/>
+
+
+</LinearLayout>

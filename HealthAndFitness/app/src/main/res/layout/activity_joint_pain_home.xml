@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exr">
+    <TextView
+        android:id="@+id/tv_joint_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:text="@string/home_screen_text"
+        android:textSize="35dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/ThemeColor"
+        />
+
+    <Button
+        android:id="@+id/btn_knee"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/border_style"
+        android:text="@string/btn_knee_text"
+        android:layout_below="@id/tv_joint_title"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:layout_marginTop="60dp"
+
+
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_style"
+        android:text="@string/btn_back_text"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@id/btn_knee"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_neck"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/border_style"
+        android:text="@string/btn_neck_text"
+        android:layout_below="@id/btn_back"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_shoulder"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/border_style"
+        android:text="@string/btn_shoulder_text"
+        android:layout_below="@id/btn_neck"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+
+        />
+
+</RelativeLayout>

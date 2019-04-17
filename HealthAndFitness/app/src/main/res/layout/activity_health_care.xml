@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/options">
+
+    <Button
+        android:id="@+id/opt_des"
+        android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="150dip"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/border_style"
+        android:textStyle="italic"
+        android:text="@string/opt_des"/>
+
+    <Button
+        android:id="@+id/opt_cause"
+        android:layout_below="@+id/opt_des"
+        android:layout_width="200dip"
+        android:layout_marginLeft="70dp"
+        android:layout_height="40dip"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="10dip"
+        android:textStyle="italic"
+        android:text="@string/opt_cause"/>
+
+    <Button
+        android:id="@+id/opt_sym"
+        android:layout_below="@+id/opt_cause"
+        android:layout_width="200dip"
+        android:layout_marginLeft="70dp"
+        android:layout_height="40dip"
+        android:background="@drawable/border_style"
+        android:textStyle="italic"
+        android:layout_marginTop="10dip"
+        android:text="@string/opt_sym"/>
+
+    <Button
+        android:id="@+id/opt_diet"
+        android:layout_width="200dip"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/opt_sym"
+        android:layout_height="40dip"
+        android:background="@drawable/border_style"
+        android:textStyle="italic"
+        android:layout_marginTop="10dip"
+        android:text="@string/opt_diet"/>
+
+    <Button
+        android:id="@+id/opt_pre"
+        android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/opt_diet"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="10dip"
+        android:textStyle="italic"
+        android:text="@string/opt_pre"/>
+</RelativeLayout>

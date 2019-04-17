@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/icon_disease"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Diet plan for diseases" />
+        <item
+            android:id="@+id/icon_lose_weight"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Diet plan to lose weight" />
+        <item
+            android:id="@+id/icon_exercise"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exercise plan to lose weight" />
+        <item
+            android:id="@+id/icon_joints_pain"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exercise plan for joints pain" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/icon_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+            <item
+                android:id="@+id/icon_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
